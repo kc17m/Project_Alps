@@ -21,54 +21,75 @@ strong {
     color: #999;
     margin: 0 0 0 60px;
     text-transform: uppercase;
-    font-family: "Cincel", serif;
+    font-family: "Cinzel", serif;
     font-weight: 700;
+
 }
 
-header section {
+header section  {
     background: url(../img/background.jpeg) no-repeat center;
-    height: 600px;
+    height: 300px;
     margin: 20px;
+    
     
     
 }
 
 h1  {
-    color: white;
-    font-size: 3em;
-    margin: 50px;
-    text-align: center;
-    padding: 5em 11em; 
-    font-family: "Cincel", serif;
-    font-weight: lighter;
     letter-spacing: 0.02em;
+    font-size: 1.8em;
+    margin: 1.1em;
+    padding: 1em;
+    color: white;
+    text-align: center;
+    font-family: "Cinzel", serif;
+    padding: 4em 7em;
+
     
 }
 
 h2 {
     font-variant: small-caps;
     text-align: center;
+    font-family: "Cinzel", serif;
 }
 main section:nth-of-type(1) {
     text-align: center;
+    margin: 1em 1em;
+    padding: 1em 1em;
+}
+
+
+
+article {
+    margin: 3em 1em;
 }
 
 main img {
-    width: 400px;
-    height: 250px;
-    margin: 20px 40px;
+    width: 9em;
+    height: 6em;
+    margin: .7em;
 }
 
 ul {
     font-weight: bold;
+    list-style: none;
+    font-size: 0.7em;
+}
+
+li {
+    line-height: 2em;;
 }
 
 ul li span {
     color: red;
+    font-weight: bold;
+    
 }
 
 footer {
     border-top: 1px solid rgb(182, 177, 177);
+
 }
 
 a {
@@ -76,3 +97,21 @@ a {
     color: black;
 }
 
+footer div {
+    text-align: left;
+    background: rgb(68, 61, 61);
+    color: white;
+}
+
+footer p {
+    text-align: center;
+    padding: 1em 0;
+}
+
+footer img {
+    width: 2rem;
+    height: 2rem;
+    margin: 0 1em;
+    
+
+}
