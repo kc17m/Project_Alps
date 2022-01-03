@@ -14,36 +14,63 @@ color: #333 */
 
 header, main, footer  {
     font-family: Poppins;
-    margin: 30px 60px;
+    margin: 30px 10px;
+    font-size: 1.3em
 }
 
 strong {
     color: #999;
-    margin: 0 0 0 60px;
+    margin: 0 0 0 10%;
     text-transform: uppercase;
     font-family: "Cinzel", serif;
     font-weight: 700;
+    font-size: 1.6em;
+    text-indent: 2em;
 
 }
 
-header section  {
+* {
+    box-sizing: border-box;
+}
+
+header div  {
     background: url(../img/background.jpeg) no-repeat center;
-    height: 300px;
-    margin: 20px;
+    height: 30%;
+    width: 100%;
+    margin: 2% auto;
+    
+    padding: 10%;
+    text-align: center;
+    /* text-align: center;
+    color: white;
+    letter-spacing: 0.02em; */
+    /* font-size: 1em; */
+    /* height: 100%;
+    margin: 30%;  */
     
     
+
     
 }
 
-h1  {
-    letter-spacing: 0.02em;
-    font-size: 1.8em;
-    margin: 1.1em;
-    padding: 1em;
-    color: white;
-    text-align: center;
+ h1 {
     font-family: "Cinzel", serif;
-    padding: 4em 7em;
+    color: white;
+    letter-spacing: 0.05em;
+    width: 100%;
+    
+    /* margin: 0% auto;
+    padding: % 0%;  */
+    text-align: center;
+    font-size: 2.2em;
+     
+} 
+
+/* h1  {
+    width: 50%;
+    font-size: 1.2em;
+    font-family: arial;
+     */
 
     
 }
@@ -55,6 +82,7 @@ h2 {
 }
 main section:nth-of-type(1) {
     text-align: center;
+    width: 80vw;
     margin: 1em 1em;
     padding: 1em 1em;
 }
@@ -65,10 +93,16 @@ article {
     margin: 3em 1em;
 }
 
+
+
 main img {
-    width: 9em;
-    height: 6em;
-    margin: .7em;
+    width: 28%;
+    height: 14em;
+    margin: .6em;
+}
+
+main section:nth-of-type(2) {
+    margin: 2% 5%;
 }
 
 ul {
@@ -89,6 +123,7 @@ ul li span {
 
 footer {
     border-top: 1px solid rgb(182, 177, 177);
+    margin: 10%
 
 }
 
@@ -101,17 +136,18 @@ footer div {
     text-align: left;
     background: rgb(68, 61, 61);
     color: white;
+    padding: 0.5em 0 ;
 }
 
 footer p {
     text-align: center;
-    padding: 1em 0;
+    padding: 1% 0 0%; 0%
 }
 
 footer img {
     width: 2rem;
     height: 2rem;
-    margin: 0 1em;
+    margin: 1% 3%;
     
 
 }
